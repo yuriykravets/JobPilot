@@ -1,0 +1,37 @@
+[project]
+name = "jobpilot-backend"
+version = "0.1.0"
+description = "JobPilot AI-powered job search and interview platform backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.1",
+    "asyncpg>=0.32.0",
+    "fastapi>=0.162.0",
+    "google-genai>=1.0.0",
+    "greenlet>=3.0.0",
+    "httpx>=0.28.1",
+    "openai>=3.46.0",
+    "pdfplumber>=0.11.0",
+    "pgvector>=0.5.1",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.12",
+    "redis>=8.1.0",
+    "sqlalchemy>=2.1.6",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pypdf>=6.21.4",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+pythonpath = ["."]
