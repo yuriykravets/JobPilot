@@ -1,4 +1,4 @@
-# JobPilot — Production-Grade AI Career Copilot & Technical Interview Engine
+# JobPilot - Production-Grade AI Career Copilot & Technical Interview Engine
 
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Async%20REST-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
